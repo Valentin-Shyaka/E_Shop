@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+
+.div1{
+    background-color: rgb(40, 40, 100);
+    
+    height: 700px;
+    width: 100%;
+
+}
+.nav_bar{
+    background-color: rgb(40, 40, 100);
+    display: flex ;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-color: yellow;
+
+}
+.nav_links{
+    margin-left: 150px;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    align-items: center;
+}
+#link1{
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#link{
+    text-decoration: none;
+    color: rgb(214, 208, 208);
+    margin-left: 30px;
+    
+}
+
+
+.download{
+    margin-left: 200px;
+}
+#downl{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(75, 75, 119);
+}
+.hm_text{
+    margin-top: 100px;
+    float: left;
+    margin-left: 100px;
+}
+#h1{
+    font-size: 2.6em;
+    font-family: cursive;
+    color: white;
+
+}
+#power{
+    color: rgb(255, 196, 0);
+}
+#par1{
+    margin-top: 30px;
+    font-size: 1.2em;
+    width: 400px;
+    height: 5opx;
+}
+#choose{
+    margin-top: 100px;
+    background-color: rgb(226, 72, 98);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 1em;
+    margin-left: 00px;
+
+}
+.templates{
+    float: right;
+    margin-right: 200px;
+    display: flex;
+    margin-top: 70px;
+}
+.info{
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:rgb(255, 255, 255);
+}
+.row2{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#temp{
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+   
+
+
+}
+#par1{
+    font-size: 1.3em;
+    color: white;
+    font-family: sans-serif;
+}
+#par4{
+    margin-left: 40px;
+    font-size: 1.3em;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.joint{
+    background-color: rgb(226, 188, 21);
+    width: 300px;
+    height: 450px;
+   
+    
+    margin-top: -200px;
+    margin-left: 300px;
+    border-radius: 10px;
+
+}
+#joiner{
+    margin-left: -130px;
+    margin-top: 0px;
+
+}
+.hn_text{
+    float: right;
+    font-size: 1.6em;
+    font-family: cursive;
+    margin-left: 900px;
+    margin-top: -180px;
+
+}
+#tmp{
+    color: rgb(207, 72, 94);
+}
+#par2{
+    font: 0.9em;
+}
+#but{
+    width: 200px;
+    height: 40px;
+    background-color:rgb(40, 40, 100) ;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.options{
+    display: flex;
+    margin-left: 190px;
+    width: 500px;
+    
+    
+
+}
+.option{
+    width: 600px;
+    margin-left: 20px;
+    margin-top: -60px;
+    border-style: solid;
+   
+    height: 60px;
+    border-color: rgb(204, 67, 90);
+    /* background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
+    border-color: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: monospace;
+}
+#facebook{
+    color: blue;
+}
+#twitter{
+    color: rgb(40, 126, 196);
+
+
+}
+#cloud{
+    color: grey;
+}
+.div2{
+    height: 200px;
+}
+#logo{
+    align-items: center;
+    font-size: 2em;
+    margin-left: 5px;
+    margin-top:3px;
+}
+#left_arrow{
+    margin-left: 20px;
+    color: white;
+    font-size: 2em;
+    margin-top: 0px;
+}
+#down_arrow{
+    margin-left: 10px;
+    
+}
+.info:hover{
+    transform: scale(1.1);
+    transition: all 0.3s  ease;
+    box-shadow: 50px white;
+    background-color: rgb(206, 149, 42);
+}
+#choose:hover{
+    background-color: #f89104;
+    cursor:pointer;
+
+}
+#but:hover{
+    background-color:rgb(204, 67, 90);
+    cursor:pointer;
+
+}
+.option:hover{
+    border-color:rgb(40, 40, 100) ;
+    cursor: pointer;
+ 
+    transition: all 0.3s ease;
+    
+}
+#link:hover{
+    color: white;
+    font-weight: bold;
+
+}
+#downl:hover{
+
+    color: white;
+    background-color: cornflowerblue;
+    cursor: pointer;
+
+}
+
+.logo:hover{
+    cursor: pointer;
+
+}

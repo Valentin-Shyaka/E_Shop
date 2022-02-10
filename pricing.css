@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color:rgb(104, 68, 236)
+}
+body{
+    background-color: rgb(40, 40, 100);
+    font-family: sans-serif;
+}
+h1{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.main{
+    margin:  100px;
+    background-color: rgb(250, 245, 245);
+    border-radius: 15px;
+    height: 600px;
+    
+}
+#par1{
+    margin-left: 0px;
+    font-size: 1.2em;
+    opacity: 0.5;
+}
+.pricing{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.price{
+    margin-left: 50px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-color: blue;
+    border-radius: 20px;
+
+
+}
+h4{
+    margin-top: 20px;
+    
+    font-size: 1.2em;
+    font-family: sans-serif;
+    opacity: 0.5;
+    text-align: center;
+}
+p{
+    margin-top: 30px;
+   text-align: center;
+   font-size:  30px;
+   font-weight: bold;
+}
+ul{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+li{
+    margin-top: 20px;
+}
+button{
+    width: 150px;
+    margin-top: 80px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 80px;
+    background-color: var(--color);
+    color: white;
+    border-color: white;
+}
+.price:hover{
+    background-color: rgb(104, 68, 236);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.4s ease
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(104, 68, 236);
+    
+}
+.nav_bar{
+    background-color: rgb(104, 68, 236);
+    display: flex ;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-color: yellow;
+
+}
+.nav_links{
+    margin-left: 150px;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    align-items: center;
+}
+#link1{
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#link{
+    text-decoration: none;
+    color: rgb(214, 208, 208);
+    margin-left: 30px;
+    
+}
+
+
+.download{
+    margin-left: 200px;
+}
+#downl{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(12, 12, 240);
+    margin-top: 0px;
+}
+#logo{
+    font-size: 2em;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+/* .price:hover,
+.price:hover~.main {
+    background-color: blue;
+} */

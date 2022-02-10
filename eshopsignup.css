@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    background-color: rgb(192, 187, 241);
+}
+.main{
+    margin-left:  260px;
+    background-color:white;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 100px;
+    height: 600px;
+    width: 1000px
+    
+}
+.main1{
+    
+    width: 500px;
+    height: 100%;
+    background-color: rgb(107, 83, 211);
+    border-radius: inherit;
+
+
+}
+#h1{
+    color: white;
+    font-size: 1.6em;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+strong{
+    color: rgba(15, 15, 202);
+}
+#image{
+    /* float: left; */
+    margin-right: 500px;
+    margin-left: 90px;
+    margin-top: -100px;
+}
+.main2{
+    width: 50%;
+    background-color: white;
+    border-radius:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgba(15, 15, 202) ;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+h4{
+    margin-top: 25px;
+    margin-left: 130px;
+}
+#field{
+    margin-left: 25px;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    border-color: rgb(0,0,0,0.3);
+    margin-left: 120px;
+}
+#first{
+    margin-left: 40px;
+    
+}
+#last{
+    float: right;
+    margin-top: -69px;
+    margin-right: 40px;
+
+}
+#field1{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: rgba(15, 15, 202, 0.1);
+    text-align: center;
+}
+#f1{
+    margin-left: 60px;
+}
+#par1{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 400px;
+    font-size: 0.9em;
+
+}
+#sign_up_but{
+    width: 300px;
+    height: 40px;
+    font-size: 1.6em;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: rgb(82, 82, 184);
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+}
+#or{
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 250px;
+    font-size: 1.3em;
+}
+#option{
+    margin-left: 40px;
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    border-color: rgb(110, 110, 236);
+}
+#par2{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: o.9em;
+
+}
+span{
+    color: blue;
+}
+#icon{
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: blue;
+}
+#icon1{
+    margin-right: 10px;
+    color: rgb(247, 6, 6);
+    
+    font-size: 1.2em;
+}
+#field:hover{
+    background-color: rgb(171, 171, 233);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+#field1:hover{
+    background-color: rgb(223, 179, 154);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+#sign_up_but:hover{
+    cursor: pointer;
+}
+#option:hover{
+    transform:scale(1.1);
+    transition: all 0.3s ease;
+}
